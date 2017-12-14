@@ -7,11 +7,15 @@ import { routes } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { EventsComponent } from './components/events/events.component';
+import { IframeComponent } from './components/iframe/iframe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomepageComponent,
+    EventsComponent,
+    IframeComponent
   ],
   imports: [
     BrowserModule,
